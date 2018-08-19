@@ -140,8 +140,14 @@ input, select, textarea {
 				padding: 0 1.25em 0 1.25em;
 			}
 
-	h3, h4 {
+	h3 {
+		font-size: 1.65em;
+		text-transform: none;
+	}
+
+	h4 {
 		font-size: 1.25em;
+		text-transform: none;
 	}
 
 	a {
