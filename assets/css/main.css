@@ -2502,6 +2502,42 @@ input, select, textarea {
 	color: #d76338;
 }
 
+/* Publications */
+.pubs {
+	font-size: 1.2em;
+}
+
+.pubs li {
+	display: inline-block;
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	top: 0;
+}
+
+.pubs a{
+	font-weight: bold;
+	color: #5a6e8b;
+	text-decoration: none;
+}
+
+.pubs authors a{
+	margin-top: 1px;
+	color: #d76338;
+}
+
+.pubs authors:before {
+	content:"\a";
+	white-space: pre;
+}
+
+.pubs authors:after {
+	content:"\a";
+	white-space: pre;
+}
+
+.pubs journal{
+	font-style: italic;
+}
+
 /* Banner */
 
 	#banner {
