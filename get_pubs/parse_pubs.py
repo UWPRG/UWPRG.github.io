@@ -18,9 +18,9 @@ for pub in pub_list:
     # journal and year formatting
     journal = ''
     year = ''
-    if len(pub[2].split(',')) > 1:
-        journal = pub[2].split(',')[0].strip()
-        year = pub[2].split(',')[1].strip()
+    if len(pub[2].split(',')) > 2:
+        journal = pub[2].split(',')[1].strip()
+        year = pub[2].split(',')[2].strip()[:4]
     doc = {'authors': authors,
            'title': title,
            'journal': journal,
@@ -28,21 +28,27 @@ for pub in pub_list:
 
     pub_docs.append(doc)
 
-out_string = ''
-for pub_doc in pub_docs:
-    if len(pub_doc["journal"]) < 1:
-        pub_doc["journal"] = pub_doc["year"]
-        pub_doc["year"] = ''
+year_dict = {str(year): '<ul>\n'
+              for year in range(2018, 2004, -1)}
 
-    pub_string = f'<li>\n' \
-                 f'    <a href="#">{pub_doc["title"]}<a/>\n' \
-                 f'    <authors>{pub_doc["authors"]}</authors>\n' \
-                 f'    <journal>{pub_doc["journal"]}</journal>, ' \
-                 f'{pub_doc["year"]}\n' \
-                 f'</li>\n'
-    out_string += pub_string
+year_dict['missing_year'] = '<ul>\n'
+
+for pub_doc in pub_docs:
+    pub_string = f'    <li>\n' \
+                 f'        <a href="#">{pub_doc["title"]}<a/>\n' \
+                 f'        <authors>{pub_doc["authors"]}</authors>\n' \
+                 f'        <journal>{pub_doc["journal"]}</journal>\n' \
+                 f'    </li>\n'
+
+    if pub_doc['year'] not in year_dict:
+        year_dict['missing_year'] += pub_string
+        continue
+
+    year_dict[pub_doc['year']] += pub_string
+
+out_string = ''
+for key, value in year_dict.items():
+    out_string += key + '\n' + value + '</ul>\n'
 
 with open(out_file, 'w') as fout:
     print(out_string, file=fout)
-
-print('lol')
