@@ -28,14 +28,14 @@ for pub in pub_list:
 
     pub_docs.append(doc)
 
-year_dict = {str(year): '<ul>\n'
+year_dict = {str(year): '<ul  class="pubs">\n'
               for year in range(2018, 2004, -1)}
 
-year_dict['missing_year'] = '<ul>\n'
+year_dict['missing_year'] = '<ul  class="pubs">\n'
 
 for pub_doc in pub_docs:
     pub_string = f'    <li>\n' \
-                 f'        <a href="#">{pub_doc["title"]}<a/>\n' \
+                 f'        <a href="#">{pub_doc["title"]}</a>\n' \
                  f'        <authors>{pub_doc["authors"]}</authors>\n' \
                  f'        <journal>{pub_doc["journal"]}</journal>\n' \
                  f'    </li>\n'
