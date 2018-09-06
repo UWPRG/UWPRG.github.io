@@ -1798,7 +1798,7 @@ input, select, textarea {
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-		background: #535a32;
+		background: #5a6e8b;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -1820,7 +1820,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #818961;
+			background: #af835d;
 		}
 
 		input[type="button"]:active,
@@ -1828,7 +1828,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #818961;
+			background: #af835d;
 		}
 
 		input[type="button"].alt,
@@ -2121,7 +2121,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #818961;
+			border-color: #af835d;
 		}
 
 	form input[type="text"],
@@ -2398,7 +2398,7 @@ input, select, textarea {
 			}
 
 			#nav li.current a {
-				background: #535a32;
+				background: #5a6e8b;
 				color: #fff;
 			}
 
@@ -2609,7 +2609,7 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #535a32;
+		border-top: solid 5px #5a6e8b;
 		border-bottom: solid 5px #a09fa5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
@@ -2883,7 +2883,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #535a32;
+						background: #5a6e8b;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -2894,7 +2894,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #818961;
+						background-color: #af835d;
 					}
 
 			#navPanel {
