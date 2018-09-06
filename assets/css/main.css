@@ -1755,7 +1755,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 8px;
 		}
 
@@ -1798,7 +1798,7 @@ input, select, textarea {
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-		background: #535a32;
+		background: #5a6e8b;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -1820,7 +1820,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #818961;
+			background: #5a6e8bdf;
 		}
 
 		input[type="button"]:active,
@@ -1828,7 +1828,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #818961;
+			background: #5a6e8bdf;
 		}
 
 		input[type="button"].alt,
@@ -1844,7 +1844,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #ccd5d0;
+				background: #d76338;
 			}
 
 			input[type="button"].alt:active,
@@ -1852,7 +1852,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #b1bab5;
+				background: #d76338;
 			}
 
 		input[type="button"].large,
@@ -2121,7 +2121,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #818961;
+			border-color: #af835d;
 		}
 
 	form input[type="text"],
@@ -2335,7 +2335,7 @@ input, select, textarea {
 		left: 0;
 		z-index: 1000;
 		background-color: rgba(255, 255, 255, 0.95);
-		background-image: url("images/overlay.png");
+		/*background-image: url("images/overlay.png");*/
 		width: 100%;
 		height: 3.25em;
 		line-height: 3.25em;
@@ -2398,7 +2398,7 @@ input, select, textarea {
 			}
 
 			#nav li.current a {
-				background: #535a32;
+				background: #5a6e8b;
 				color: #fff;
 			}
 
@@ -2558,7 +2558,7 @@ input, select, textarea {
 		#banner .content {
 			position: relative;
 			background-color: rgba(21, 28, 23, 0.85);
-			background-image: url("images/overlay.png"), url("images/highlight.png");
+			/*background-image: url("images/overlay.png"), url("images/highlight.png");*/
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
 			background-repeat: repeat, no-repeat;
@@ -2609,7 +2609,7 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #535a32;
+		border-top: solid 5px #5a6e8b;
 		border-bottom: solid 5px #a09fa5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
@@ -2847,7 +2847,7 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				background-color: #555354;
-				background-image: url("images/overlay.png");
+				/*background-image: url("images/overlay.png");*/
 			}
 
 				#titleBar .title {
@@ -2883,7 +2883,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #535a32;
+						background: #5a6e8b;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -2894,7 +2894,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #818961;
+						background-color: #af835d;
 					}
 
 			#navPanel {
@@ -2919,10 +2919,10 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				background-color: #353c37;
-				background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-				background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-				background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+				/*background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));*/
+				/*background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));*/
+				/*background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));*/
+				/*background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));*/
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% 100%;
 				font-family: 'Open Sans Condensed', sans-serif;
