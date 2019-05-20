@@ -1,6 +1,6 @@
 import os.path as op
 
-raw_file = op.join(op.dirname(__file__), 'raw_pubs.txt')
+raw_file = op.join(op.dirname(__file__), 'raw_pubs_04_19.txt')
 out_file = op.join(op.dirname(__file__), 'html_pubs.txt')
 
 with open(raw_file) as f:
@@ -29,7 +29,7 @@ for pub in pub_list:
     pub_docs.append(doc)
 
 year_dict = {str(year): '<ul  class="pubs">\n'
-              for year in range(2018, 2004, -1)}
+              for year in range(2019, 2004, -1)}
 
 year_dict['missing_year'] = '<ul  class="pubs">\n'
 
