@@ -1,5 +1,43 @@
+2019
+<ul  class="pubs">
+    <li>
+        <a href="#">Fantastic Liquids and Where to Find Them: Optimizations of Discrete Chemical Space</a>
+        <authors>W. Beckner and J. Pfaendtner, </authors>
+        <journal>J. Chem. Inf. Model.</journal>
+    </li>
+    <li>
+        <a href="#">Molecular Driving Forces in Peptide Adsorption to Metal Oxide Surfaces</a>
+        <authors>M. Mao, J. Sampath, K.G. Sprenger, G. Drobny, J. Pfaendtner, </authors>
+        <journal>Langmuir</journal>
+    </li>
+    <li>
+        <a href="#">Diagnosing the Impact of External Electric Fields Chemical Kinetics: Application to Toluene Oxidation and Pyrolysis</a>
+        <authors>C.D. Fu, Y. He, J. Pfaendtner, </authors>
+        <journal>J. Phys. Chem. A.</journal>
+    </li>
+    <li>
+        <a href="#">A Solid-State NMR and MD Study of the Structure of the Statherin Mutant SNa15 on Mineral Surfaces</a>
+        <authors>E.L. Buckle, A. Prakash, M. Bonomi, J. Sampath, J. Pfaendtner, G.P. Drobny, </authors>
+        <journal>JACS</journal>
+    </li>
+</ul>
 2018
 <ul  class="pubs">
+    <li>
+        <a href="#">Ice-binding site of surface-bound type III antifreeze protein partially decoupled from water</a>
+        <authors>D. Verreault, S. Alamdari, S. Roeters, R. Pandey, J. Pfaendtner, T. Weidner, </authors>
+        <journal>Phys. Chem. Chem. Phys.</journal>
+    </li>
+    <li>
+        <a href="#">Inhibition of the Exoglucanase Cel7A by a Douglas-Fir-Condensed Tannin</a>
+        <authors>K. Oleson, K.G. Sprenger, J. Pfaendtner, D.T. Schwartz, </authors>
+        <journal>J. Phys. Chem. B.</journal>
+    </li>
+    <li>
+        <a href="#">Biasing Smarter, Not Harder, By Partitioning Collective Variables Into Families In Parallel Bias Metadynamics</a>
+        <authors>A. Prakash, C.D. Fu, M. Bonomi, J. Pfaendtner, </authors>
+        <journal>J. Theor. Chem. Comput.</journal>
+    </li>
     <li>
         <a href="#">Peptoid backbone flexibility dictates its interaction with water and surfaces: A molecular dynamics investigation</a>
         <authors>A. Prakash, M. Baer, C.J. Mundy, J. Pfaendtner, </authors>
@@ -261,7 +299,7 @@
         <journal>Langmuir</journal>
     </li>
     <li>
-        <a href="#">Insights into Solvated Salt Bridges</a>
+        <a href="#">Free Energy of Solvated Salt Bridges: A Simulation and Experimental Study</a>
         <authors>A. White, A. Keefe, J. R. Ella-Menye, A. Nowinski, Q. Shao, J. Pfaendtner, S. Jiang, </authors>
         <journal>J. Phys. Chem. B</journal>
     </li>
@@ -338,16 +376,6 @@ missing_year
         <journal>2016</journal>
     </li>
     <li>
-        <a href="#">Using molecular simulation to study biocatalysis in ionic liquids</a>
-        <authors>K.G. Sprenger, J. Pfaendtner, </authors>
-        <journal>(invited contribution)</journal>
-    </li>
-    <li>
-        <a href="#">Tackling Sampling Challenges in Biomolecular Simulations</a>
-        <authors>A. Barducci, A. J. Pfaendtner, J., M. Bonomi, </authors>
-        <journal>In Molecular Modeling of Proteins</journal>
-    </li>
-    <li>
         <a href="#">Actin Filament Remodeling by Cofilin,</a>
         <authors>J. Pfaendtner, E. M. De La Cruz, and G. A. Voth, </authors>
         <journal>2010</journal>
@@ -366,11 +394,6 @@ missing_year
         <a href="#">Defining coarse-grained representations of large biomolecules and biomolecular complexes from elastic network models,</a>
         <authors>Zhang, Z., J. Pfaendtner, A. Grafmüller, and G. A. Voth, </authors>
         <journal>2009</journal>
-    </li>
-    <li>
-        <a href="#">Chemical and Biochemical Kinetics and Macrokinetics , in Chemical Engineering and Chemical Process Technology</a>
-        <authors>J. Pfaendtner, </authors>
-        <journal>[Eds. Ryzhard Pohorecki</journal>
     </li>
     <li>
         <a href="#">Molecular Dynamics Simulation and Coarse-grained Analysis of the Unactivated Arp2/3 Complex,</a>
